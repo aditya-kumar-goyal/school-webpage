@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+#marqueeStyle {
+    background-color: lightskyblue;
+}
+
+#details {
+    background-color: burlywood;
+    column-fill: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+#achievmentsID {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+movie_text span {
+    color: #FF7700;
+}
+
+#footer {
+    height: 20px;
+    background-color: white;
+}
+
